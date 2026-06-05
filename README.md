@@ -10,8 +10,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tyler-graves-security">LinkedIn</a>
-  &nbsp;&middot;&nbsp;
-  <a href="mailto:redacted">Email</a>
 </p>
 
 <p align="center">
