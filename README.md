@@ -1,7 +1,7 @@
 <h1 align="center">Tyler Graves</h1>
 
 <p align="center">
-  <em>Detection engineering &middot; digital forensics &amp; incident response &middot; security tooling</em>
+  <em>Detection engineering &middot; digital forensics &amp; incident response &middot; reverse engineering</em>
 </p>
 
 <p align="center">
@@ -25,34 +25,34 @@
 
 ### Selected Work
 
-<sub>Six tools spanning the defensive lifecycle — author detections, prove them out offline, and run the investigation when one fires.</sub>
+<sub>A through-line across the work: take messy, real-world signal — network captures, mail headers, raw binaries, AI-agent logs — and make it legible, testable, and something an analyst can act on.</sub>
 
 #### Detection Engineering
 
-**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** — Detection-as-code pipeline that compiles Sigma rules into Splunk SPL and Microsoft Sentinel KQL, fire-tested in CI with MITRE ATT&CK + ATLAS coverage and a dedicated LLM/AI-app threat pack.
+**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** — Detection-as-code pipeline that compiles Sigma rules into Splunk SPL and Microsoft Sentinel KQL, fire-tested in CI, with MITRE ATT&CK + ATLAS coverage and a dedicated LLM/AI-app threat pack.
 <br><sub>`Python` · `Sigma` · `Splunk SPL` · `Sentinel KQL` · `CI`</sub>
 
-**[PromptHound](https://github.com/NotACop38/PromptHound)** — SIEM-ready detection library for attacks against LLM apps and AI agents. Sigma rules auto-convert to SPL + KQL, mapped to the OWASP LLM Top 10 and MITRE ATLAS, with a synthetic telemetry generator that validates every rule offline.
+**[PromptHound](https://github.com/NotACop38/PromptHound)** — SIEM-ready detection library for attacks against LLM apps and AI agents. Sigma rules auto-convert to SPL + KQL, mapped to the OWASP LLM Top 10 and MITRE ATLAS, with a synthetic telemetry generator that exercises every rule offline.
 <br><sub>`Python` · `OWASP LLM Top 10` · `MITRE ATLAS` · `detection-as-code`</sub>
 
-**[SubStation](https://github.com/NotACop38/SubStation)** — Detection content for industrial protocol attacks — Modbus, DNP3, Siemens S7 — mapped to MITRE ATT&CK for ICS. Ships with a synthetic traffic simulator that emits benign and anomalous telemetry as PCAP and JSON, so OT detections validate with no PLC or live hardware.
+**[SubStation](https://github.com/NotACop38/SubStation)** — Detection content for industrial-protocol attacks — Modbus, DNP3, Siemens S7 — mapped to MITRE ATT&CK for ICS. Bundled with a synthetic traffic simulator that emits benign and anomalous telemetry as PCAP and JSON, so OT detections validate with no PLC or live hardware.
 <br><sub>`Python` · `Modbus / DNP3 / S7` · `ATT&CK for ICS` · `PCAP`</sub>
 
 #### Digital Forensics & Incident Response
 
-**[Casebound](https://github.com/NotACop38/Casebound)** — Local-first DFIR copilot that assembles a verified forensic timeline and an evidence-grounded narrative. Every AI claim must cite a real event or be rejected — no hallucinated findings in the report.
+**[Casebound](https://github.com/NotACop38/Casebound)** — Local-first DFIR copilot that assembles a verified forensic timeline and an evidence-grounded narrative. Every AI claim has to cite a real event or it gets rejected — no hallucinated findings in the report.
 <br><sub>`DFIR` · `local-first` · `timeline analysis` · `evidence-grounded AI`</sub>
 
-**[PhishBowl](https://github.com/NotACop38/PhishBowl)** — Self-hostable phishing-triage tool. Parse a suspicious `.eml`/`.msg`, defang IOCs, enrich via OSINT, and produce a transparent risk score with an analyst-ready report. Analysis-only by design — never sends, opens, or detonates.
+**[PhishBowl](https://github.com/NotACop38/PhishBowl)** — Self-hostable phishing-triage tool. Parse a suspicious `.eml`/`.msg`, defang IOCs, enrich via OSINT, and produce a transparent risk score with an analyst-ready report. Never sends, opens, or detonates — triage stays safe by construction.
 <br><sub>`Python` · `email forensics` · `OSINT` · `IOC enrichment`</sub>
 
 #### Reverse Engineering & Tooling
 
-**[Sextant](https://github.com/NotACop38/Sextant)** — Reverse-engineers unknown binary formats and protocols through combined statistical and LLM structure inference, with every generated parser tested against your real sample captures.
+**[Sextant](https://github.com/NotACop38/Sextant)** — Reverse-engineers unknown binary formats and protocols through combined statistical and LLM structure inference, then tests every generated parser against your real sample captures.
 <br><sub>`Rust` · `binary analysis` · `protocol RE` · `parser generation`</sub>
 
 ---
 
 <p align="center">
-  <sub>Defensive security only — all tooling is built for analysis, detection, and response.</sub>
+  <sub>A habit, not a slogan: every project here ships with the thing that proves it works —<br>CI-tested rules, synthetic telemetry, real-sample validation, and evidence you can audit.</sub>
 </p>
