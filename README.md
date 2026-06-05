@@ -21,7 +21,7 @@
   <img alt="GIAC Advisory Board" src="https://img.shields.io/badge/GIAC-Advisory%20Board-334155?style=flat-square&labelColor=2B2B2B">
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
 
 ### Selected Work
 
@@ -51,7 +51,11 @@
 **[Sextant](https://github.com/NotACop38/Sextant)** — Reverse-engineers unknown binary formats and protocols through combined statistical and LLM structure inference, then tests every generated parser against your real sample captures.
 <br><sub>`Rust` · `binary analysis` · `protocol RE` · `parser generation`</sub>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
+
+<p align="center">
+  <sub><b>Toolbox</b>&nbsp;&nbsp;Python · Rust · Sigma · Splunk SPL · Sentinel KQL · MITRE ATT&CK / ATLAS · OWASP LLM Top 10</sub>
+</p>
 
 <p align="center">
   <sub>A habit, not a slogan: every project here ships with the thing that proves it works —<br>CI-tested rules, synthetic telemetry, real-sample validation, and evidence you can audit.</sub>
