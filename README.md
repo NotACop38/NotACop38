@@ -54,7 +54,8 @@
 <p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
 
 <p align="center">
-  <sub><b>Toolbox</b>&nbsp;&nbsp;Python · Rust · Sigma · Splunk SPL · Sentinel KQL · MITRE ATT&CK / ATLAS · OWASP LLM Top 10</sub>
+  <sub><b>Languages</b>&nbsp;&nbsp;Python · Rust · C · Assembly (Intel x86)<br>
+  <b>Tooling</b>&nbsp;&nbsp;Sigma · Splunk SPL · Sentinel KQL · MITRE ATT&CK / ATLAS · OWASP LLM Top 10</sub>
 </p>
 
 <p align="center">
