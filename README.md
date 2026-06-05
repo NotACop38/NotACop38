@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-  <img alt="GIAC GFACT" src="https://img.shields.io/badge/GIAC-GFACT-8A1538?style=flat-square&labelColor=2B2B2B">
-  <img alt="GIAC GSEC" src="https://img.shields.io/badge/GIAC-GSEC-8A1538?style=flat-square&labelColor=2B2B2B">
-  <img alt="GIAC GCIH" src="https://img.shields.io/badge/GIAC-GCIH-8A1538?style=flat-square&labelColor=2B2B2B">
-  <img alt="GIAC Advisory Board" src="https://img.shields.io/badge/GIAC-Advisory%20Board-334155?style=flat-square&labelColor=2B2B2B">
+  <a href="https://www.credly.com/badges/0c45243e-0307-43f4-8be4-bc48d9997773/linked_in_profile" title="Verify on Credly"><img alt="GIAC GFACT" src="https://img.shields.io/badge/GIAC-GFACT-8A1538?style=flat-square&labelColor=2B2B2B"></a>
+  <a href="https://www.credly.com/badges/6ca3d309-d4db-4c88-9f33-c03faf5802ad/linked_in_profile" title="Verify on Credly"><img alt="GIAC GSEC" src="https://img.shields.io/badge/GIAC-GSEC-8A1538?style=flat-square&labelColor=2B2B2B"></a>
+  <a href="https://www.credly.com/badges/ab370d73-0529-4eb6-b8c9-c5e956928e2b/linked_in_profile" title="Verify on Credly"><img alt="GIAC GCIH" src="https://img.shields.io/badge/GIAC-GCIH-8A1538?style=flat-square&labelColor=2B2B2B"></a>
+  <a href="https://www.credly.com/badges/cec03649-509f-4dc2-bf07-5e4670fd1a65/linked_in_profile" title="Verify on Credly"><img alt="GIAC Advisory Board" src="https://img.shields.io/badge/GIAC-Advisory%20Board-334155?style=flat-square&labelColor=2B2B2B"></a>
 </p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
