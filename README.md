@@ -57,5 +57,5 @@
 </p>
 
 <p align="center">
-  <sub>A habit, not a slogan: every project here ships with the thing that proves it works —<br>CI-tested rules, synthetic telemetry, real-sample validation, and evidence you can audit.</sub>
+  <sub>Each project ships with a way to check it: rules tested in CI, synthetic telemetry,<br>validation against real samples, output you can audit.</sub>
 </p>
