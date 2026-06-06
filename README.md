@@ -1,7 +1,7 @@
 <h1 align="center">Tyler Graves</h1>
 
 <p align="center">
-  Security Analyst III. Detection engineering and security automation.
+  Reverse engineering, malware research, and detection tooling.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 <p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
 
-I work in detection engineering and security automation. Day to day that means writing and tuning SIEM detections in Splunk Enterprise Security and Microsoft Sentinel, building response automation in Cortex XSOAR, and running down alerts in Microsoft Defender. The open-source projects below grow out of that work: they take raw signal, such as network captures, mail headers, binaries, and AI-agent logs, and turn it into something an analyst can test and act on.
+I'm drawn to the low level: reverse engineering, malware development, and building tools that turn raw signal into something a person can act on. Most of what I make is aimed at researchers and small security teams, the people doing real work without a vendor's budget behind them. The open-source projects below grow out of that, taking inputs like network captures, mail headers, unknown binaries, and AI-agent logs and turning them into something you can test, verify, and use.
 
 ### Selected Work
 
