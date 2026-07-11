@@ -2,12 +2,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-    <img src="assets/header-light.svg" width="100%" alt="Tyler Graves — Detection Engineering · DFIR · Reverse Engineering">
+    <img src="assets/header-light.svg" width="100%" alt="Tyler Graves: Detection Engineering · DFIR · Reverse Engineering">
   </picture>
 </p>
 
 <p align="center">
-  Defensive security tooling you can verify — built for researchers and small teams.
+  Defensive security tooling you can verify, built for researchers and small teams.
 </p>
 
 <p align="center">
@@ -30,32 +30,32 @@
   </picture>
 </p>
 
-I work close to the metal — reverse engineering, malware analysis, and detection engineering — turning raw signal like packet captures, mail headers, unknown binaries, and AI-agent logs into tooling a person can actually act on. Most of it is built for researchers and small security teams doing real work without a vendor's budget behind them, and every project ships with a way to **verify its output instead of trusting it**.
+I work close to the metal: reverse engineering, malware analysis, and detection engineering. The projects here turn raw signal (packet captures, mail headers, unknown binaries, AI-agent logs) into something an analyst can act on. They're built for researchers and small security teams without a vendor budget behind them, and each one includes a way to verify its output instead of trusting it.
 
-### Selected Work
+### Projects
 
 #### Detection Engineering
 
-**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** &mdash; compiles Sigma rules into Splunk SPL and Microsoft Sentinel KQL, fire-tests each one in CI, and maps coverage to MITRE ATT&CK and ATLAS. Ships with a dedicated detection pack for LLM and AI-app threats.
+**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** compiles Sigma rules into Splunk SPL and Microsoft Sentinel KQL, fire-tests each rule in CI, and maps coverage to MITRE ATT&CK and ATLAS. There's also a detection pack for LLM and AI-app threats.
 <br><sub>`Python` &middot; `Sigma` &middot; `Splunk SPL` &middot; `Sentinel KQL` &middot; `CI`</sub>
 
-**[PromptHound](https://github.com/NotACop38/PromptHound)** &mdash; a SIEM-ready detection library for attacks against LLM apps and AI agents. Sigma rules convert to SPL and KQL, mapped to the OWASP LLM Top 10 and MITRE ATLAS, with a synthetic telemetry generator that exercises every rule offline.
+**[PromptHound](https://github.com/NotACop38/PromptHound)** is a detection library for attacks on LLM apps and AI agents, written to drop into a SIEM. The Sigma rules convert to SPL and KQL, map to the OWASP LLM Top 10 and MITRE ATLAS, and come with a synthetic telemetry generator that exercises every rule offline.
 <br><sub>`Python` &middot; `OWASP LLM Top 10` &middot; `MITRE ATLAS` &middot; `detection-as-code`</sub>
 
-**[SubStation](https://github.com/NotACop38/SubStation)** &mdash; detection content for industrial-protocol attacks (Modbus, DNP3, Siemens S7), mapped to MITRE ATT&CK for ICS. A bundled traffic simulator emits benign and anomalous telemetry as PCAP and JSON, so OT detections validate without a PLC or live hardware.
+**[SubStation](https://github.com/NotACop38/SubStation)** is detection content for industrial-protocol attacks (Modbus, DNP3, Siemens S7), mapped to MITRE ATT&CK for ICS. A bundled traffic simulator emits benign and anomalous telemetry as PCAP and JSON, so you can test OT detections without a PLC or live hardware.
 <br><sub>`Python` &middot; `Modbus / DNP3 / S7` &middot; `ATT&CK for ICS` &middot; `PCAP`</sub>
 
 #### Digital Forensics &amp; Incident Response
 
-**[Casebound](https://github.com/NotACop38/Casebound)** &mdash; a local-first DFIR copilot that assembles a verified forensic timeline and an evidence-grounded narrative. Every AI claim has to cite a real event or it is rejected, so the report carries no invented findings.
+**[Casebound](https://github.com/NotACop38/Casebound)** is a local-first DFIR assistant that builds a verified forensic timeline and writes the case narrative from it. Every AI claim has to cite a real event or it gets rejected, so nothing in the report is invented.
 <br><sub>`DFIR` &middot; `local-first` &middot; `timeline analysis` &middot; `evidence-grounded AI`</sub>
 
-**[PhishBowl](https://github.com/NotACop38/PhishBowl)** &mdash; a self-hostable phishing-triage tool. It parses a suspicious `.eml` or `.msg`, defangs IOCs, enriches them via OSINT, and produces a transparent risk score with an analyst-ready report. Nothing is sent, opened, or detonated, so triage stays safe by construction.
+**[PhishBowl](https://github.com/NotACop38/PhishBowl)** is a self-hosted phishing triage tool. It parses a suspicious `.eml` or `.msg`, defangs the IOCs, enriches them with OSINT, and writes a report with a risk score you can trace back to the evidence. Nothing gets sent, opened, or detonated.
 <br><sub>`Python` &middot; `email forensics` &middot; `OSINT` &middot; `IOC enrichment`</sub>
 
 #### Reverse Engineering &amp; Tooling
 
-**[Sextant](https://github.com/NotACop38/Sextant)** &mdash; a Rust CLI that infers the structure of unknown binary formats and network protocols from sample files, then generates verified parsers for Kaitai Struct, ImHex, Wireshark (Lua dissector), and 010 Editor, plus an annotated field map and confidence report. A native Rust engine drives a generate-test-refine loop that accepts an LLM proposal only when the verified parse score actually improves.
+**[Sextant](https://github.com/NotACop38/Sextant)** is a Rust CLI that works out the structure of unknown binary formats and network protocols from sample files, then generates parsers for Kaitai Struct, ImHex, Wireshark (Lua dissector), and 010 Editor, plus an annotated field map and a confidence report. The Rust engine tests every LLM-proposed refinement against the samples and keeps it only if the parse score improves.
 <br><sub>`Rust` &middot; `binary analysis` &middot; `protocol RE` &middot; `parser generation`</sub>
 
 <p align="center">
@@ -76,5 +76,5 @@ I work close to the metal — reverse engineering, malware analysis, and detecti
 </p>
 
 <p align="center">
-  <sub>Every project ships with its own way to check the output — rules fire-tested in CI, synthetic telemetry, validation against real samples, and reports you can audit.</sub>
+  <sub>Each project has its own way to check the output: rules fire-tested in CI, synthetic telemetry, validation against real samples, and reports you can audit.</sub>
 </p>
