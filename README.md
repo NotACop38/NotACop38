@@ -1,7 +1,9 @@
-<h1 align="center">Tyler Graves</h1>
-
 <p align="center">
-  <strong>Detection Engineering&nbsp;&middot;&nbsp;DFIR&nbsp;&middot;&nbsp;Reverse Engineering</strong>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+    <img src="assets/header-light.svg" width="100%" alt="Tyler Graves — Detection Engineering · DFIR · Reverse Engineering">
+  </picture>
 </p>
 
 <p align="center">
@@ -20,7 +22,13 @@
   <a href="https://www.credly.com/badges/cec03649-509f-4dc2-bf07-5e4670fd1a65" title="Verify on Credly"><img alt="GIAC Advisory Board" src="https://img.shields.io/badge/GIAC-Advisory%20Board-334155?style=flat-square&labelColor=2B2B2B"></a>
 </p>
 
-<p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+    <img src="assets/divider-light.svg" width="100%" height="8" alt="">
+  </picture>
+</p>
 
 I work close to the metal — reverse engineering, malware analysis, and detection engineering — turning raw signal like packet captures, mail headers, unknown binaries, and AI-agent logs into tooling a person can actually act on. Most of it is built for researchers and small security teams doing real work without a vendor's budget behind them, and every project ships with a way to **verify its output instead of trusting it**.
 
@@ -50,7 +58,13 @@ I work close to the metal — reverse engineering, malware analysis, and detecti
 **[Sextant](https://github.com/NotACop38/Sextant)** &mdash; a Rust CLI that infers the structure of unknown binary formats and network protocols from sample files, then generates verified parsers for Kaitai Struct, ImHex, Wireshark (Lua dissector), and 010 Editor, plus an annotated field map and confidence report. A native Rust engine drives a generate-test-refine loop that accepts an LLM proposal only when the verified parse score actually improves.
 <br><sub>`Rust` &middot; `binary analysis` &middot; `protocol RE` &middot; `parser generation`</sub>
 
-<p align="center"><img src="assets/divider.svg" width="100%" height="8" alt=""></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/divider-light.svg">
+    <img src="assets/divider-light.svg" width="100%" height="8" alt="">
+  </picture>
+</p>
 
 <p align="center">
   <sub>
