@@ -4,7 +4,7 @@
 
 Boise, Idaho · [LinkedIn](https://www.linkedin.com/in/tyler-graves-security) · [Credentials](#credentials)
 
-I build defensive security tools with reproducible tests and results that analysts can trace back to the underlying rules, events, or bytes.
+I build defensive security tools with reproducible tests and results that analysts can trace to rules, events, or bytes.
 
 ## Selected projects
 
