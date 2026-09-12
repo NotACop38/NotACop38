@@ -12,19 +12,19 @@ I build defensive security tools in Python and Rust. My work spans detection dev
 
 **[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** converts Sigma rules to Splunk SPL and Microsoft Sentinel/Defender KQL. It tests detection logic against positive and negative synthetic fixtures and maps rules to MITRE ATT&CK and ATLAS.
 
-**[PromptHound](https://github.com/NotACop38/PromptHound)** provides Sigma detections for attacks on LLM applications and AI agents, with SPL/KQL exports, OWASP LLM Top 10 and MITRE ATLAS mappings, and synthetic telemetry for offline testing.
+**[PromptHound](https://github.com/NotACop38/PromptHound)** provides experimental Sigma detections for LLM applications and AI agents, including correlations grouped by tenant. It includes SPL/KQL query templates, telemetry normalization, offline regression tests, and mappings to OWASP LLM Top 10 and MITRE ATLAS.
 
 **[SubStation](https://github.com/NotACop38/SubStation)** pairs Sigma and Zeek rules with synthetic PCAP and JSONL scenarios for testing industrial protocol detections. It covers Modbus, DNP3, and Siemens S7, with ATT&CK for ICS mappings.
 
 ### Digital forensics & incident response
 
-**[PhishBowl](https://github.com/NotACop38/PhishBowl)** parses `.eml` and `.msg` files into reports with defanged indicators and risk scores broken down by rule. Core analysis runs offline, with optional OSINT enrichment.
+**[PhishBowl](https://github.com/NotACop38/PhishBowl)** analyzes `.eml` and `.msg` files offline, preserving indicator provenance and explaining its heuristic scores. Reports include defanged indicators and flag incomplete analysis. OSINT enrichment is optional.
 
 **[Casebound](https://github.com/NotACop38/Casebound)** builds forensic timelines from host triage data. Its optional AI narrative layer checks citations and structured facts against the timeline and records rejected claims for review.
 
 ### Reverse engineering
 
-**[Sextant](https://github.com/NotACop38/Sextant)** uses statistical analysis to infer binary layouts from samples. The Rust CLI tests inferred structures against the input and exports parsers and templates for Kaitai Struct, ImHex, Wireshark, and 010 Editor.
+**[Sextant](https://github.com/NotACop38/Sextant)** uses statistical analysis to propose binary layouts and measure how well they parse the input samples. Its offline Rust CLI exports supported layouts as editable Kaitai Struct definitions, ImHex patterns, Wireshark dissectors, and 010 Editor templates.
 
 ## Tools & languages
 
