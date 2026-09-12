@@ -4,7 +4,7 @@
 
 Boise, Idaho · [LinkedIn](https://www.linkedin.com/in/tyler-graves-security) · [Credentials](#credentials)
 
-I build defensive security tools in Python and Rust, focused on detection testing, forensic triage, and binary analysis.
+I build defensive security tools with reproducible tests and results that analysts can trace back to the underlying rules, events, or bytes.
 
 ## Selected projects
 
@@ -28,8 +28,9 @@ I build defensive security tools in Python and Rust, focused on detection testin
 
 ## Tools & languages
 
-- **Detection & response:** Splunk Enterprise Security (SPL), Microsoft Sentinel (KQL), Microsoft Defender, Cortex XSOAR, Sigma.
-- **Programming:** Python, Rust, PowerShell, C, x86 assembly.
+- **Detection:** Splunk Enterprise Security (SPL), Microsoft Sentinel (KQL), Sigma.
+- **Response:** Microsoft Defender, Cortex XSOAR.
+- **Languages:** Python, Rust, PowerShell, C, x86 assembly.
 
 ## Credentials
 
