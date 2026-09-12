@@ -4,27 +4,27 @@
 
 Boise, Idaho · [LinkedIn](https://www.linkedin.com/in/tyler-graves-security) · [Credentials](#credentials)
 
-I build defensive security tools in Python and Rust. My work spans detection development, digital forensics and incident response, and binary analysis, with an emphasis on testable behavior and results an analyst can inspect.
+I build defensive security tools in Python and Rust, focused on detection testing, forensic triage, and binary analysis.
 
 ## Selected projects
 
 ### Detection engineering
 
-**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** converts Sigma rules to Splunk SPL and Microsoft Sentinel/Defender KQL. It tests detection logic against positive and negative synthetic fixtures and maps rules to MITRE ATT&CK and ATLAS.
+**[Sigma-Forge](https://github.com/NotACop38/Sigma-Forge)** combines Sigma rule authoring, query conversion, and synthetic regression tests for Windows and AI application logs. It targets Splunk SPL and Microsoft Sentinel/Defender KQL, with MITRE ATT&CK and ATLAS mappings.
 
-**[PromptHound](https://github.com/NotACop38/PromptHound)** provides experimental Sigma detections for LLM applications and AI agents, including correlations grouped by tenant. It includes SPL/KQL query templates, telemetry normalization, offline regression tests, and mappings to OWASP LLM Top 10 and MITRE ATLAS.
+**[PromptHound](https://github.com/NotACop38/PromptHound)** provides experimental Sigma detections for LLM applications and AI agents, with correlations grouped by tenant. It includes a versioned telemetry schema, SPL/KQL query templates, offline fixture tests, and OWASP LLM Top 10 and MITRE ATLAS mappings.
 
-**[SubStation](https://github.com/NotACop38/SubStation)** pairs Sigma and Zeek rules with synthetic PCAP and JSONL scenarios for testing industrial protocol detections. It covers Modbus, DNP3, and Siemens S7, with ATT&CK for ICS mappings.
+**[SubStation](https://github.com/NotACop38/SubStation)** pairs Sigma and Zeek rules with synthetic Modbus, DNP3, and Siemens S7 traffic for offline detection testing. It produces PCAP/JSONL artifacts, supports configurable site policies, and checks modeled fields against independent parsers.
 
 ### Digital forensics & incident response
 
-**[PhishBowl](https://github.com/NotACop38/PhishBowl)** analyzes `.eml` and `.msg` files offline, preserving indicator provenance and explaining its heuristic scores. Reports include defanged indicators and flag incomplete analysis. OSINT enrichment is optional.
+**[PhishBowl](https://github.com/NotACop38/PhishBowl)** analyzes `.eml` and `.msg` files offline and produces reports with defanged indicators, evidence sources, and explainable heuristic scores. It flags incomplete analysis and supports optional OSINT enrichment.
 
-**[Casebound](https://github.com/NotACop38/Casebound)** builds forensic timelines from host triage data. Its optional AI narrative layer checks citations and structured facts against the timeline and records rejected claims for review.
+**[Casebound](https://github.com/NotACop38/Casebound)** normalizes host triage data into forensic timelines with source references and ATT&CK mappings. Its optional AI summaries render checked fields from cited events and include an audit of rejected claims.
 
 ### Reverse engineering
 
-**[Sextant](https://github.com/NotACop38/Sextant)** uses statistical analysis to propose binary layouts and measure how well they parse the input samples. Its offline Rust CLI exports supported layouts as editable Kaitai Struct definitions, ImHex patterns, Wireshark dissectors, and 010 Editor templates.
+**[Sextant](https://github.com/NotACop38/Sextant)** explores binary formats through statistical inference in an offline Rust CLI. It tests candidate layouts against sample bytes and exports supported structures as editable Kaitai Struct definitions, ImHex patterns, Wireshark Lua dissectors, and 010 Editor templates.
 
 ## Tools & languages
 
